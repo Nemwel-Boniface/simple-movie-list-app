@@ -1,1 +1,17 @@
 /*this style sheet will contain styling for the movie list app*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+  background-image: url(images/movietheatre.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/*page styling starts here*/
