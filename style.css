@@ -64,6 +64,24 @@ body
     border-radius: 7px;
     cursor: pointer;
 }
+form
+{
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+input
+{
+    height: 30px;
+}
+button
+{
+    height: 30px;
+    background: green;
+    padding: 8px;
+    width: 70px;
+    color: #fff;
+    margin-left: 0;
+}
 
 
 
