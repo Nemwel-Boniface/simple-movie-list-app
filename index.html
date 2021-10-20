@@ -1,21 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-      
-      <!--Meta tags-->
+       <!--Meta tags-->
       
        <meta charset="utf-8">
        <meta name="author" content="a simple 'to-do'-like app where you can list movies you like. It has functionalities of adding, deleting movies you like">
        
        <!--Page title-->
        
-        <title>MOVIE list APP</title>
+        <title>MOVIE APP</title>
         
         <!--stylesheet links-->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+       <!--outer most div-->
        
+        <div id="wrapper">
+            <header>
+                <div id="page-banner">
+                    <h1 class="title" style="color: #fff">Movie Time</h1>
+                    <p style="color: #fff">A curated List Of Awesome Movies</p><br>
+                    
+                </div>
+                
+            </header>
+            
+            <div class="movie-list">
+                <h2 class="title">Movies To watch</h2>
+                <ul>
+                    <li>
+                        <span class="name">The Intern</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Prestige</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Avengers</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Boss</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Kids</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <form id="add-movie">
+                <input type="text" placeholder=" Add a new movie">
+                <button>Add</button>
+                
+            </form>
+            
+            
+        </div>
         
         
        <script> </script>
